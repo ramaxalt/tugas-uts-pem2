@@ -14,7 +14,7 @@ export default function App() {
   );
 }
 
-/* ================= BACKGROUND EFFECT ================= */
+/*   BACKGROUND  */
 function BackgroundGlow() {
   return (
     <div className="fixed inset-0 -z-10">
@@ -24,7 +24,7 @@ function BackgroundGlow() {
   );
 }
 
-/* ================= HEADER ================= */
+/*   HEADER   */
 function Header() {
   return (
     <header className="fixed top-0 w-full backdrop-blur bg-white/5 border-b border-white/10 z-50">
@@ -40,7 +40,7 @@ function Header() {
   );
 }
 
-/* ================= HERO ================= */
+/*   HERO   */
 function Hero() {
   return (
     <section id="home" className="pt-32 pb-24 text-center px-4">
@@ -66,7 +66,7 @@ function Hero() {
   );
 }
 
-/* ================= FEATURES ================= */
+/*   FEATURES    */
 function Features() {
   return (
     <section id="features" className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-3 gap-8">
@@ -86,7 +86,7 @@ function Card({ title, desc }) {
   );
 }
 
-/* ================= CTA ================= */
+/* CTA */
 function CTA() {
   return (
     <section className="text-center py-20">
@@ -103,7 +103,7 @@ function CTA() {
   );
 }
 
-/* ================= CONTACT ================= */
+/*   CONTACT   */
 function Contact() {
   const [form, setForm] = useState({
     nama: "",
@@ -153,7 +153,7 @@ function Contact() {
   );
 }
 
-/* ================= FOOTER ================= */
+/*   FOOTER   */
 function Footer() {
   return (
     <footer className="text-center py-6 text-gray-500 border-t border-white/10">
